@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83F908702886F04500F79A7B /* FreemixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F9086F2886F04400F79A7B /* FreemixApp.swift */; };
+		83F908722886F04500F79A7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F908712886F04500F79A7B /* ContentView.swift */; };
+		83F908742886F04700F79A7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F908732886F04700F79A7B /* Assets.xcassets */; };
+		83F908772886F04700F79A7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F908762886F04700F79A7B /* Preview Assets.xcassets */; };
+		83F908792886F04700F79A7B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F908782886F04700F79A7B /* Persistence.swift */; };
+		83F9087C2886F04700F79A7B /* Freemix.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83F9087A2886F04700F79A7B /* Freemix.xcdatamodeld */; };
+		83F908862886F04700F79A7B /* FreemixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F908852886F04700F79A7B /* FreemixTests.swift */; };
+		83F908902886F04700F79A7B /* FreemixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F9088F2886F04700F79A7B /* FreemixUITests.swift */; };
+		83F908922886F04700F79A7B /* FreemixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F908912886F04700F79A7B /* FreemixUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83F908822886F04700F79A7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83F908642886F04400F79A7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83F9086B2886F04400F79A7B;
+			remoteInfo = Freemix;
+		};
+		83F9088C2886F04700F79A7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83F908642886F04400F79A7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83F9086B2886F04400F79A7B;
+			remoteInfo = Freemix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83F9086C2886F04400F79A7B /* Freemix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Freemix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F9086F2886F04400F79A7B /* FreemixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreemixApp.swift; sourceTree = "<group>"; };
+		83F908712886F04500F79A7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		83F908732886F04700F79A7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83F908762886F04700F79A7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		83F908782886F04700F79A7B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		83F9087B2886F04700F79A7B /* Freemix.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Freemix.xcdatamodel; sourceTree = "<group>"; };
+		83F908812886F04700F79A7B /* FreemixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreemixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F908852886F04700F79A7B /* FreemixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreemixTests.swift; sourceTree = "<group>"; };
+		83F9088B2886F04700F79A7B /* FreemixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreemixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F9088F2886F04700F79A7B /* FreemixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreemixUITests.swift; sourceTree = "<group>"; };
+		83F908912886F04700F79A7B /* FreemixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreemixUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83F908692886F04400F79A7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F9087E2886F04700F79A7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F908882886F04700F79A7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83F908632886F04400F79A7B = {
+			isa = PBXGroup;
+			children = (
+				83F9086E2886F04400F79A7B /* Freemix */,
+				83F908842886F04700F79A7B /* FreemixTests */,
+				83F9088E2886F04700F79A7B /* FreemixUITests */,
+				83F9086D2886F04400F79A7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83F9086D2886F04400F79A7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83F9086C2886F04400F79A7B /* Freemix.app */,
+				83F908812886F04700F79A7B /* FreemixTests.xctest */,
+				83F9088B2886F04700F79A7B /* FreemixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83F9086E2886F04400F79A7B /* Freemix */ = {
+			isa = PBXGroup;
+			children = (
+				83F9086F2886F04400F79A7B /* FreemixApp.swift */,
+				83F908712886F04500F79A7B /* ContentView.swift */,
+				83F908732886F04700F79A7B /* Assets.xcassets */,
+				83F908782886F04700F79A7B /* Persistence.swift */,
+				83F9087A2886F04700F79A7B /* Freemix.xcdatamodeld */,
+				83F908752886F04700F79A7B /* Preview Content */,
+			);
+			path = Freemix;
+			sourceTree = "<group>";
+		};
+		83F908752886F04700F79A7B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				83F908762886F04700F79A7B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		83F908842886F04700F79A7B /* FreemixTests */ = {
+			isa = PBXGroup;
+			children = (
+				83F908852886F04700F79A7B /* FreemixTests.swift */,
+			);
+			path = FreemixTests;
+			sourceTree = "<group>";
+		};
+		83F9088E2886F04700F79A7B /* FreemixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83F9088F2886F04700F79A7B /* FreemixUITests.swift */,
+				83F908912886F04700F79A7B /* FreemixUITestsLaunchTests.swift */,
+			);
+			path = FreemixUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83F9086B2886F04400F79A7B /* Freemix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83F908952886F04700F79A7B /* Build configuration list for PBXNativeTarget "Freemix" */;
+			buildPhases = (
+				83F908682886F04400F79A7B /* Sources */,
+				83F908692886F04400F79A7B /* Frameworks */,
+				83F9086A2886F04400F79A7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Freemix;
+			productName = Freemix;
+			productReference = 83F9086C2886F04400F79A7B /* Freemix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83F908802886F04700F79A7B /* FreemixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83F908982886F04700F79A7B /* Build configuration list for PBXNativeTarget "FreemixTests" */;
+			buildPhases = (
+				83F9087D2886F04700F79A7B /* Sources */,
+				83F9087E2886F04700F79A7B /* Frameworks */,
+				83F9087F2886F04700F79A7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83F908832886F04700F79A7B /* PBXTargetDependency */,
+			);
+			name = FreemixTests;
+			productName = FreemixTests;
+			productReference = 83F908812886F04700F79A7B /* FreemixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83F9088A2886F04700F79A7B /* FreemixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83F9089B2886F04700F79A7B /* Build configuration list for PBXNativeTarget "FreemixUITests" */;
+			buildPhases = (
+				83F908872886F04700F79A7B /* Sources */,
+				83F908882886F04700F79A7B /* Frameworks */,
+				83F908892886F04700F79A7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83F9088D2886F04700F79A7B /* PBXTargetDependency */,
+			);
+			name = FreemixUITests;
+			productName = FreemixUITests;
+			productReference = 83F9088B2886F04700F79A7B /* FreemixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83F908642886F04400F79A7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					83F9086B2886F04400F79A7B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					83F908802886F04700F79A7B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 83F9086B2886F04400F79A7B;
+					};
+					83F9088A2886F04700F79A7B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 83F9086B2886F04400F79A7B;
+					};
+				};
+			};
+			buildConfigurationList = 83F908672886F04400F79A7B /* Build configuration list for PBXProject "Freemix" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83F908632886F04400F79A7B;
+			productRefGroup = 83F9086D2886F04400F79A7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83F9086B2886F04400F79A7B /* Freemix */,
+				83F908802886F04700F79A7B /* FreemixTests */,
+				83F9088A2886F04700F79A7B /* FreemixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83F9086A2886F04400F79A7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F908772886F04700F79A7B /* Preview Assets.xcassets in Resources */,
+				83F908742886F04700F79A7B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F9087F2886F04700F79A7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F908892886F04700F79A7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83F908682886F04400F79A7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F9087C2886F04700F79A7B /* Freemix.xcdatamodeld in Sources */,
+				83F908792886F04700F79A7B /* Persistence.swift in Sources */,
+				83F908722886F04500F79A7B /* ContentView.swift in Sources */,
+				83F908702886F04500F79A7B /* FreemixApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F9087D2886F04700F79A7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F908862886F04700F79A7B /* FreemixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F908872886F04700F79A7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F908902886F04700F79A7B /* FreemixUITests.swift in Sources */,
+				83F908922886F04700F79A7B /* FreemixUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83F908832886F04700F79A7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83F9086B2886F04400F79A7B /* Freemix */;
+			targetProxy = 83F908822886F04700F79A7B /* PBXContainerItemProxy */;
+		};
+		83F9088D2886F04700F79A7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83F9086B2886F04400F79A7B /* Freemix */;
+			targetProxy = 83F9088C2886F04700F79A7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		83F908932886F04700F79A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83F908942886F04700F79A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83F908962886F04700F79A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Freemix/Preview Content\"";
+				DEVELOPMENT_TEAM = EHNUR444DN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamsocki.Freemix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83F908972886F04700F79A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Freemix/Preview Content\"";
+				DEVELOPMENT_TEAM = EHNUR444DN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamsocki.Freemix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83F908992886F04700F79A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EHNUR444DN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamsocki.FreemixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Freemix.app/Freemix";
+			};
+			name = Debug;
+		};
+		83F9089A2886F04700F79A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EHNUR444DN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamsocki.FreemixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Freemix.app/Freemix";
+			};
+			name = Release;
+		};
+		83F9089C2886F04700F79A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EHNUR444DN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamsocki.FreemixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Freemix;
+			};
+			name = Debug;
+		};
+		83F9089D2886F04700F79A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EHNUR444DN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamsocki.FreemixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Freemix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83F908672886F04400F79A7B /* Build configuration list for PBXProject "Freemix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F908932886F04700F79A7B /* Debug */,
+				83F908942886F04700F79A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83F908952886F04700F79A7B /* Build configuration list for PBXNativeTarget "Freemix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F908962886F04700F79A7B /* Debug */,
+				83F908972886F04700F79A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83F908982886F04700F79A7B /* Build configuration list for PBXNativeTarget "FreemixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F908992886F04700F79A7B /* Debug */,
+				83F9089A2886F04700F79A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83F9089B2886F04700F79A7B /* Build configuration list for PBXNativeTarget "FreemixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F9089C2886F04700F79A7B /* Debug */,
+				83F9089D2886F04700F79A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		83F9087A2886F04700F79A7B /* Freemix.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				83F9087B2886F04700F79A7B /* Freemix.xcdatamodel */,
+			);
+			currentVersion = 83F9087B2886F04700F79A7B /* Freemix.xcdatamodel */;
+			path = Freemix.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 83F908642886F04400F79A7B /* Project object */;
+}
