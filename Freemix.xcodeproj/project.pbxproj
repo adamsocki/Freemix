@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83D507DE2894771100DFC335 /* Import_GTFS_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D507DD2894771100DFC335 /* Import_GTFS_View.swift */; };
+		83D507E028947A4700DFC335 /* Map+Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D507DF28947A4700DFC335 /* Map+Type.swift */; };
+		83D507E52897130400DFC335 /* TestRouteOverlayMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D507E42897130400DFC335 /* TestRouteOverlayMap.swift */; };
+		83D507E82897134B00DFC335 /* GTFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D507E72897134B00DFC335 /* GTFS.swift */; };
+		83D507EC2898476400DFC335 /* TestRouteOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D507EB2898476400DFC335 /* TestRouteOverlayView.swift */; };
+		83D507EE2898537100DFC335 /* MagicMountain.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83D507ED2898537100DFC335 /* MagicMountain.plist */; };
+		83EDB68C289927E300CFC34B /* ImportCSV_Stops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EDB68B289927E300CFC34B /* ImportCSV_Stops.swift */; };
+		83EDB68E2899280A00CFC34B /* ImportCSV_Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EDB68D2899280A00CFC34B /* ImportCSV_Route.swift */; };
+		83EDB6902899283100CFC34B /* stops.csv in Resources */ = {isa = PBXBuildFile; fileRef = 83EDB68F2899283100CFC34B /* stops.csv */; };
+		83EDB6922899327900CFC34B /* shape.txt in Resources */ = {isa = PBXBuildFile; fileRef = 83EDB6912899327900CFC34B /* shape.txt */; };
+		83EDB69628993B3500CFC34B /* route.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83EDB69528993B3500CFC34B /* route.plist */; };
 		83F908702886F04500F79A7B /* FreemixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F9086F2886F04400F79A7B /* FreemixApp.swift */; };
 		83F908722886F04500F79A7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F908712886F04500F79A7B /* ContentView.swift */; };
 		83F908742886F04700F79A7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F908732886F04700F79A7B /* Assets.xcassets */; };
@@ -16,6 +27,9 @@
 		83F908862886F04700F79A7B /* FreemixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F908852886F04700F79A7B /* FreemixTests.swift */; };
 		83F908902886F04700F79A7B /* FreemixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F9088F2886F04700F79A7B /* FreemixUITests.swift */; };
 		83F908922886F04700F79A7B /* FreemixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F908912886F04700F79A7B /* FreemixUITestsLaunchTests.swift */; };
+		83F908A32886F16A00F79A7B /* Map_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F908A22886F16A00F79A7B /* Map_View.swift */; };
+		83F908A52886F1FB00F79A7B /* Menu_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F908A42886F1FB00F79A7B /* Menu_View.swift */; };
+		83F908A82886F36100F79A7B /* Menu_Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F908A72886F36100F79A7B /* Menu_Icon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +50,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83D507DD2894771100DFC335 /* Import_GTFS_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Import_GTFS_View.swift; sourceTree = "<group>"; };
+		83D507DF28947A4700DFC335 /* Map+Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Map+Type.swift"; sourceTree = "<group>"; };
+		83D507E42897130400DFC335 /* TestRouteOverlayMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRouteOverlayMap.swift; sourceTree = "<group>"; };
+		83D507E72897134B00DFC335 /* GTFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTFS.swift; sourceTree = "<group>"; };
+		83D507EB2898476400DFC335 /* TestRouteOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRouteOverlayView.swift; sourceTree = "<group>"; };
+		83D507ED2898537100DFC335 /* MagicMountain.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MagicMountain.plist; sourceTree = "<group>"; };
+		83EDB68B289927E300CFC34B /* ImportCSV_Stops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportCSV_Stops.swift; sourceTree = "<group>"; };
+		83EDB68D2899280A00CFC34B /* ImportCSV_Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportCSV_Route.swift; sourceTree = "<group>"; };
+		83EDB68F2899283100CFC34B /* stops.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stops.csv; sourceTree = "<group>"; };
+		83EDB6912899327900CFC34B /* shape.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shape.txt; sourceTree = "<group>"; };
+		83EDB69528993B3500CFC34B /* route.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = route.plist; path = ../../../../../../route.plist; sourceTree = "<group>"; };
 		83F9086C2886F04400F79A7B /* Freemix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Freemix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F9086F2886F04400F79A7B /* FreemixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreemixApp.swift; sourceTree = "<group>"; };
 		83F908712886F04500F79A7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +73,9 @@
 		83F9088B2886F04700F79A7B /* FreemixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreemixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F9088F2886F04700F79A7B /* FreemixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreemixUITests.swift; sourceTree = "<group>"; };
 		83F908912886F04700F79A7B /* FreemixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreemixUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		83F908A22886F16A00F79A7B /* Map_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map_View.swift; sourceTree = "<group>"; };
+		83F908A42886F1FB00F79A7B /* Menu_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu_View.swift; sourceTree = "<group>"; };
+		83F908A72886F36100F79A7B /* Menu_Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Menu_Icon.swift; path = Helper/Menu_Icon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +103,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83D507E32897122A00DFC335 /* Overlays */ = {
+			isa = PBXGroup;
+			children = (
+				83D507E42897130400DFC335 /* TestRouteOverlayMap.swift */,
+				83D507EB2898476400DFC335 /* TestRouteOverlayView.swift */,
+			);
+			path = Overlays;
+			sourceTree = "<group>";
+		};
+		83D507E62897133F00DFC335 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				83D507ED2898537100DFC335 /* MagicMountain.plist */,
+				83D507E72897134B00DFC335 /* GTFS.swift */,
+				83EDB68B289927E300CFC34B /* ImportCSV_Stops.swift */,
+				83EDB68D2899280A00CFC34B /* ImportCSV_Route.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		83D507F1289915DE00DFC335 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				83EDB6912899327900CFC34B /* shape.txt */,
+				83EDB69528993B3500CFC34B /* route.plist */,
+				83EDB68F2899283100CFC34B /* stops.csv */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		83F908632886F04400F79A7B = {
 			isa = PBXGroup;
 			children = (
@@ -98,12 +156,17 @@
 		83F9086E2886F04400F79A7B /* Freemix */ = {
 			isa = PBXGroup;
 			children = (
+				83D507F1289915DE00DFC335 /* Data */,
+				83D507E62897133F00DFC335 /* Model */,
+				83D507E32897122A00DFC335 /* Overlays */,
 				83F9086F2886F04400F79A7B /* FreemixApp.swift */,
 				83F908712886F04500F79A7B /* ContentView.swift */,
+				83F908A62886F20300F79A7B /* View */,
 				83F908732886F04700F79A7B /* Assets.xcassets */,
 				83F908782886F04700F79A7B /* Persistence.swift */,
 				83F9087A2886F04700F79A7B /* Freemix.xcdatamodeld */,
 				83F908752886F04700F79A7B /* Preview Content */,
+				83D507DF28947A4700DFC335 /* Map+Type.swift */,
 			);
 			path = Freemix;
 			sourceTree = "<group>";
@@ -131,6 +194,17 @@
 				83F908912886F04700F79A7B /* FreemixUITestsLaunchTests.swift */,
 			);
 			path = FreemixUITests;
+			sourceTree = "<group>";
+		};
+		83F908A62886F20300F79A7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				83F908A22886F16A00F79A7B /* Map_View.swift */,
+				83F908A42886F1FB00F79A7B /* Menu_View.swift */,
+				83F908A72886F36100F79A7B /* Menu_Icon.swift */,
+				83D507DD2894771100DFC335 /* Import_GTFS_View.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,8 +311,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83EDB69628993B3500CFC34B /* route.plist in Resources */,
+				83EDB6902899283100CFC34B /* stops.csv in Resources */,
 				83F908772886F04700F79A7B /* Preview Assets.xcassets in Resources */,
 				83F908742886F04700F79A7B /* Assets.xcassets in Resources */,
+				83D507EE2898537100DFC335 /* MagicMountain.plist in Resources */,
+				83EDB6922899327900CFC34B /* shape.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,9 +342,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				83F9087C2886F04700F79A7B /* Freemix.xcdatamodeld in Sources */,
+				83EDB68E2899280A00CFC34B /* ImportCSV_Route.swift in Sources */,
+				83D507DE2894771100DFC335 /* Import_GTFS_View.swift in Sources */,
+				83F908A32886F16A00F79A7B /* Map_View.swift in Sources */,
+				83F908A82886F36100F79A7B /* Menu_Icon.swift in Sources */,
 				83F908792886F04700F79A7B /* Persistence.swift in Sources */,
+				83D507EC2898476400DFC335 /* TestRouteOverlayView.swift in Sources */,
+				83F908A52886F1FB00F79A7B /* Menu_View.swift in Sources */,
+				83EDB68C289927E300CFC34B /* ImportCSV_Stops.swift in Sources */,
+				83D507E82897134B00DFC335 /* GTFS.swift in Sources */,
 				83F908722886F04500F79A7B /* ContentView.swift in Sources */,
+				83D507E52897130400DFC335 /* TestRouteOverlayMap.swift in Sources */,
 				83F908702886F04500F79A7B /* FreemixApp.swift in Sources */,
+				83D507E028947A4700DFC335 /* Map+Type.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
